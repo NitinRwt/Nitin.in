@@ -17,32 +17,61 @@
     <title>Sensei</title>
 </head>
 
-<body
-    style="background-image: linear-gradient(to right, rgb(34, 42, 61), rgb(17, 57, 133),rgb(43, 38, 38)); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+<body class="azhai">
 
     <main>
         <div class="container py-4">
-            <header class="row pb-3 mb-4">
-                <a class="col" href="./index.html" class="d-flex align-items-center">
+            <header class="pb-3 mb-4">
+                <a href="./index.html" class="d-flex justify-content-center">
                     <img width="180" height="180" id="akatsuki" class="me-2" src="./img/logo.png" alt="">
-
                 </a>
-                <div class="col my-auto container-fluid text-center" style="font-size: x-large;">
-                    <a class="text-decoration-none mx-2 text-dark" href="https://github.com/NitinRwt" target="_blank">
-                        <img src="./img/github.png" width="50" height="50" alt="">
-                    </a>
-                    <a class="text-decoration-none mx-2 text-dark" href="https://www.instagram.com/lit.gojo/?hl=en"
-                        target="_blank">
-                        <img src="./img/instagram.png" width="50" height="50" alt="">
-                    </a>
-                    <a class="text-decoration-none mx-2 text-dark" href="https://t.me/OPPA_4_U"><img
-                            src="./img/telegram.png" width="50" height="50" alt=""></a>
-                    <a class="text-decoration-none mx-2 text-dark" href="mailto:nitinrawat@gmail.com"><img
-                            src="./img/gmail.png" width="50" height="50" alt=""></a>
-                </div>
             </header>
+            <section>
+                <div class="d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12">
+                            <h2 class="d-flex justify-content-center">
+                                Hello World
+                            </h2>
+                            <h1 class="d-flex justify-content-center">I am
+                                <a style="text-decoration: none; color: #ce147a;" href="" class="typewrite"
+                                    data-period="2000" data-type='[" Nitin Rawat "]'>
+                                    <span class="wrap"></span>
+                                </a>
+                            </h1>
+                            <h2 class="d-flex justify-content-center text text-white">
+                                Front-end Developer
+                            </h2>
+                            <h5 class="d-flex justify-content-center">
+                                <a style="text-decoration: none; color: #ce147a;" href="" class="typewrite"
+                                    data-period="2000" data-type='["Just keep moving.... Forward"]'>
+                                    <span class="wrap"></span>
+                                </a>
+                            </h5>
+                            <a class="d-flex justify-content-center text-decoration-none m-5" href="#about"
+                                title="About me">
+                                <button type="button" class="btn btn-outline-success btn-lg px-4 me-sm-3 fw-bold"
+                                    style="border-radius: 20px;">More About Me<img class="m-1" width="10px"
+                                        height="10px" src="./img/about_down.png" alt="arrow about"></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-            <h1 id="Uploads" class="display-6 text-white">UPLOADS</h1>
+                <div class="d-flex justify-content-center m-2 gap-3">
+                    <a href="https://github.com/NitinRwT/" target="_blank"><img width="50px" height="50px"
+                            src="./img/github.png" alt="Nitin : Github" title="Nitin : Github"></a>
+                    <a href="https://t.me/OPPA_4_U" target="_blank"><img width="50px" height="50px"
+                            src="./img/telegram.png" alt="Nitin : Telegram" title="Nitin : Telegram"></a>
+                    <a href="https://www.instagram.com/lit.gojo/" target="_blank"><img width="50px" height="50px"
+                            src="./img/instagram.png" alt="Nitin : Instagram" title="Nitin : Instagram"></a>
+                    <a href="mailto:nitinrawat@gmail.com" target="_blank"><img width="50px" height="50px"
+                            src="./img/gmail.png" alt="Nitin : Youtube" title="Nitin : Youtube"></a>
+                </div>
+            </section>
+
+
+            <h1 id="Uploads" class="display-6 text-white m-5">UPLOADS</h1>
             <div class="row justify-content-center d-flex">
                 <div class="col justify-content-center d-flex my-3">
                     <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/ITWnS-jTijM"
@@ -70,7 +99,7 @@
                 </div>
             </div>
 
-            <h1 id="About" class="display-6 m-5 text-white">ABOUT</h1>
+            <h1 id="about" class="display-6 m-5 text-white">ABOUT</h1>
             <div class="p-5 mb-4 bg-light"
                 style="background-image:linear-gradient(to right, rgb(27, 75, 177), rgb(149, 20, 153)); border-radius: 20px; box-shadow: 0px 0px 20px 0px #000;">
                 <h1 class="display-6 text-light">ExSensei</h1>
@@ -106,7 +135,7 @@
     </footer>
 
     <!-- Optional JavaScript -->
-    <script src=""></script>
+    <script src="./main.js"></script>
     <!-- Bootstrap JavaScript/Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

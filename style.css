@@ -7,3 +7,16 @@
 .image:hover {
     transform: scale(1.2);
 }
+
+.azhai{
+    background: #151515 url(../img/iamazhai-2.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    min-height: 1080px;
+    position: relative;
+    text-align: center;
+}
