@@ -1,0 +1,9 @@
+.image {
+    /* ease | ease-in | ease-out | linear */
+    transition: transform ease-in-out 0.3s;
+    border-radius: 20px;
+}
+
+.image:hover {
+    transform: scale(1.2);
+}
