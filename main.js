@@ -56,3 +56,18 @@ window.onload = function () {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff} ";
     document.body.appendChild(css);
 };
+
+//my music
+var mysong = document.getElementById("mysong");
+var icon = document.getElementById("icon");
+
+icon.onclick = function () {
+    if (mysong.paused) {
+        mysong.play();
+        icon.src = "./img/pause.png";
+    }
+    else {
+        mysong.pause();
+        icon.src = "./img/play.png";
+    }
+}

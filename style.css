@@ -8,8 +8,8 @@
     transform: scale(1.2);
 }
 
-.azhai{
-    background: #151515 url(../img/iamazhai-2.jpg) no-repeat center;
+.azhai {
+    /* background:url(../img/iamazhai-2.jpg) no-repeat center; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -19,4 +19,53 @@
     min-height: 1080px;
     position: relative;
     text-align: center;
+    animation: myanimation 10s infinite;
 }
+    @keyframes myanimation {
+        0% {
+            background-color: rgb(100, 96, 96);
+        }
+
+        10% {
+            background-color: #e91e63;
+        }
+
+        20% {
+            background-color: #c21858;
+            ;
+        }
+
+        30% {
+            background-color: #572780;
+        }
+
+        40% {
+            background-color: #272a80;
+        }
+
+        50%
+        {
+            background-color: #276880;
+        }
+
+        60%
+        {
+            background-color: #57acdc;
+        }
+        70%
+        {
+            background-color: #57dcbe;
+        }
+        80%
+        {
+            background-color: #60c689;
+        }
+        90%
+        {
+            background-color: #256D85;
+        }
+        100%
+        {
+            background-color: #256D85;
+        }
+    }
