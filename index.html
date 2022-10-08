@@ -8,11 +8,16 @@
 
     <!-- Optional CSS -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./img/gojo.png">
+    <link rel="shortcut icon" href="./img/profile-pic.png">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./lightbox.min.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+
 
     <title>Sensei</title>
 </head>
@@ -23,9 +28,10 @@
         <div class="container py-4">
             <header class="row pb-3 mb-4">
                 <a class="" href="./index.html" class="d-flex justify-content-center">
-                    <img width="180" height="180" id="akatsuki" class="me-2" src="./img/logo.png" alt="">
+                    <img width="180" height="180" id="akatsuki" class="me-2" src="./img/gojo.png" alt="">
                 </a>
-                <img class="d-flex justify-content-center my-auto" src="./img/play.png" alt="music" id="icon" style="width: 5rem; height: 4rem;">
+                <img class="d-flex justify-content-center my-auto" src="./img/play.png" alt="music" id="icon"
+                    style="width: 5rem; height: 4rem;">
                 <audio id="mysong">
                     <source src="./Often (Kygo Remix) - The Weeknd.m4a" type="audio/mp3">
                 </audio>
@@ -37,26 +43,20 @@
                             <h2 class="d-flex justify-content-center">
                                 Hello World
                             </h2>
-                            <h1 class="d-flex justify-content-center gap-1">I am
-                                <a style="text-decoration: none; color: #ce147a;" href="" class="typewrite"
+                            <h1 class="d-flex justify-content-center p-3">I am
+                                <a style="text-decoration: none; color: #0e016e;" href="" class="typewrite"
                                     data-period="2000" data-type='[" Nitin Rawat "]'>
                                     <span class="wrap"></span>
                                 </a>
                             </h1>
-                            <h2 class="d-flex justify-content-center text text-white">
+                            <h2 class="d-flex justify-content-center p-3" style="color: #1c1b42;">
                                 Front-end Developer
                             </h2>
-                            <h5 class="d-flex justify-content-center">
-                                <a style="text-decoration: none; color: #ce147a;" href="" class="typewrite"
-                                    data-period="2000" data-type='["Just keep moving.... Forward"]'>
-                                    <span class="wrap"></span>
-                                </a>
-                            </h5>
                         </div>
                     </div>
                 </div>
 
-                <div class="d-flex justify-content-center m-2 gap-3">
+                <div class="d-flex justify-content-center m-2 gap-3 p-4">
                     <a href="https://github.com/NitinRwT/" target="_blank"><img width="50px" height="50px"
                             src="./img/github.png" alt="Nitin : Github" title="Nitin : Github"></a>
                     <a href="https://t.me/OPPA_4_U" target="_blank"><img width="50px" height="50px"
@@ -68,75 +68,83 @@
                 </div>
             </section>
 
-            <h1 id="Uploads" class="display-6 text-white m-5 text-center">UPLOADS</h1>
-            <div class="row justify-content-center d-flex">
-                <div class="col justify-content-center d-flex my-3">
-                    <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/LFIIsS4cgx4"
-                        frameborder="0"></iframe>
+            <!-- Portfolio Section -->
+            <section>
+                <div class="row p-3">
+                    <div class="col-twelve">
+                        <h3>Portfolio</h3>
+                        <h1>Check Out Some of My Works.</h1>
+                    </div>
                 </div>
-                <div class="col justify-content-center d-flex my-3">
-                    <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/itrTMadNJZM"
-                        frameborder="0"></iframe>
-                </div>
-                <div class="col justify-content-center d-flex my-3">
-                    <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/2_Yxme3ozpY"
-                        frameborder="0"></iframe>
-                </div>
-                <div class="col justify-content-center d-flex my-3">
-                    <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/ZpfRM7KXRKg"
-                        frameborder="0"></iframe>
-                </div>
-                <div class="col justify-content-center d-flex my-3">
-                    <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/kB8X2GhizMU"
-                        frameborder="0"></iframe>
-                </div>
-                <div class="col justify-content-center d-flex my-3">
-                    <iframe class="image" width="350" height="200" src="https://www.youtube.com/embed/fDT5EDqwIBk"
-                        frameborder="0"></iframe>
-                </div>
-            </div>
 
-            <h1 id="about" class="display-6 m-5 text-white">ABOUT</h1>
-            <div class="row p-5 mb-4" style="border-radius: 20px; box-shadow: 0px 0px 20px 0px #000;">
-                <div class="col">
-                    <img src="./img/gojo.png" alt="" width="180" height="200">
-                    <h1 class="display-6 text-light">ExSensei</h1>
-                </div>
-                <p class="col-md-8 fs-4 d-flex justify-content-center text-light my-auto">Hey guys this is Nitin Rawat a
-                    Developer/UI,UX designer, Who create user-friendly interfaces that enable users to understand how to
-                    use complex technical products.
-                    This is our yt channnel...</p>
-                <a href="https://appopener.com/yt/xnd13pi38" target="_blank">
-                    <button class="btn btn-outline-danger btn-lg" style="border-radius: 20px;"
-                        type="button">Subscribe</button>
-                </a>
-            </div>
-            <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4 justify-content-center d-flex text-white">Quick edits and customize ThumNails.</p>
-                <div class="d-flex gap-4 d-sm-flex justify-content-center">
-                    <a href="https://drive.google.com/drive/folders/1nWnDDI30ewS8LDVbRj-4o-MB8i3cbGVC?usp=sharing"
-                        target="_blank">
-                        <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
-                            style="border-radius: 20px;">Thumnails</button>
+                <!-- Papers -->
+                <section class="papers">
+                    <div class="paper-container">
+                        <div class="header">
+                            <img class="paperlogo" src="./img/wall.png" alt="paperlogo">
+                            <!-- <h1 class="paperlogo">Papers</h1> -->
+                            <form>
+                                <!-- search bar -->
+                                <input type="text" placeholder="Search">
+                                <ion-icon name="search-outline"></ion-icon>
+                            </form>
+                        </div>
+                        <div class="gallery">
+                            <!-- container for images to show  -->
+                        </div>
+                        <a class="load-more" data-img="curated">View more</a>
+                        <!-- for next page images -->
+                    </div>
+                </section>
+
+                <h1 id="about" class="display-6 m-5 text-dark">ABOUT</h1>
+                <div class="row p-5 mb-4" style="border-radius: 20px; box-shadow: 0px 0px 20px 0px #000; background-color: #4D4C7D;">
+                    <div class="col">
+                        <img src="./img/profile-pic.png" alt="" width="180" height="200">
+                        <h1 class="display-6 text-dark">ExSensei</h1>
+                    </div>
+                    <p class="col-md-8 fs-4 d-flex justify-content-center text-dark my-auto">Hey guys this is Nitin
+                        Rawat a
+                        Developer/UI,UX designer, Who create user-friendly interfaces that enable users to understand
+                        how to
+                        use complex technical products.
+                        This is our yt channnel...</p>
+                    <a href="https://appopener.com/yt/xnd13pi38" target="_blank">
+                        <button class="btn btn-success btn-lg" style="border-radius: 20px;"
+                            type="button">Subscribe</button>
                     </a>
-                    <a href="https://drive.google.com/file/d/1paXe04E-6kTFh87Fi_9q_H3AOZS1j8Gf/view?usp=sharing"
-                        target="_blank">
-                        <button type="button" class="btn btn-outline-info  btn-lg px-4" style="border-radius: 20px;">VFX
-                            Packs</button>
-                    </a>
                 </div>
-            </div>
+                <div class="col-lg-6 mx-auto">
+                    <p class="fs-5 mb-4 justify-content-center d-flex text-dark">Quick edits and customize ThumNails.
+                    </p>
+                    <div class="d-flex gap-4 d-sm-flex justify-content-center">
+                        <a href="https://drive.google.com/drive/folders/1nWnDDI30ewS8LDVbRj-4o-MB8i3cbGVC?usp=sharing"
+                            target="_blank">
+                            <button type="button" class="btn btn-outline-success btn-lg px-4 me-sm-3 fw-bold"
+                                style="border-radius: 20px;">Thumnails</button>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1paXe04E-6kTFh87Fi_9q_H3AOZS1j8Gf/view?usp=sharing"
+                            target="_blank">
+                            <button type="button" class="btn btn-outline-success  btn-lg  px-4"
+                                style="border-radius: 20px;">VFX
+                                Packs</button>
+                        </a>
+                    </div>
+                </div>
+
+                
 
         </div>
     </main>
     <footer class="py-3 justify-content-center d-flex">
         <a href="#akatsuki">
-            <img width="40px" height="40px" src="./img/uparrow.png  " alt="">
+            <img width="40px" height="40px"  src="./img/uparrow.png  " alt="">
         </a>
     </footer>
 
     <!-- Optional JavaScript -->
     <script src="./main.js"></script>
+    <script src="./lightbox-plus-jquery.min.js"></script>
     <!-- Bootstrap JavaScript/Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
